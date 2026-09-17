@@ -196,11 +196,3 @@ Things that cost me time, in case they save you some.
 **Deal age and contact silence are independent in the generated data.** A few rows show a recent deal whose contact has been silent for months, which couldn't happen in a real CRM. The staleness measure is correct; the synthetic data is inconsistent in those cases.
 
 **The two benchmark runs were not simultaneous.** The official server was tested against an earlier state of the portal. The behavioral findings hold, since it never queried engagement history at all, but the runs weren't back to back.
-
----
-
-## What this is not
-
-Not a criticism of MCP. Both servers use the protocol and it works fine. The finding is about tool design, not about the protocol.
-
-Not a claim that generic tools are useless. They handle single-object questions well. They struggle when a question needs a join.
