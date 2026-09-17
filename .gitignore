@@ -1,0 +1,7 @@
+.env
+data/
+id_map.json
+link_progress.json
+__pycache__/
+*.pyc
+.DS_Store
