@@ -2,7 +2,7 @@
 
 An MCP server for HubSpot whose tools are shaped like questions instead of like database tables.
 
-HubSpot ships an official MCP server. I tested it first, found where it breaks down, and built a different one. This repo has both the benchmark and the server.
+HubSpot ships an official MCP server built around CRM objects, which is the right design for a general-purpose integration. I wanted to test how question-shaped tools compare on cross-object GTM questions. This repo has the server and the benchmark.
 
 ---
 
